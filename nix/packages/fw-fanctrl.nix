@@ -11,7 +11,7 @@ fw-ectool
 let
   pversion = "20-04-2024";
   description = "A simple systemd service to better control Framework Laptop's fan(s)";
-  url = "https://github.com/TamtamHero/fw-fanctrl";
+  url = "https://github.com/MithicSpirit/fw-fanctrl/criticalTemp";
 in
 python3Packages.buildPythonPackage rec{
   pname = "fw-fanctrl";
