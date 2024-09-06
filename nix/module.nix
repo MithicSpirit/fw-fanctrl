@@ -60,6 +60,11 @@ in
                 default = 25;
                 description = "Interval (seconds) of the last temperatures to use to calculate the average temperature";
               };
+              criticalTemp = mkOption {
+                type = nullOr int;
+                default = null;
+                description = "Threshold temperature to ignore moving average";
+              };
               speedCurve = mkOption {
                 default = [];
                 description = "How should the speed curve look like";
